@@ -1,14 +1,14 @@
 <template>
   <section>
     <div>
-      <Logo :width="350"/>
-      <h1 class="title">NUXT<span class="green">JS</span></h1>
-      <h2 class="subtitle">Starter for CodeSandBox</h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation <IconLink/></a>
-        <NLink to="/about" class="button--grey">About</NLink>
-      </div>
+      <h1>Faschingsumzug Kirchberg/We
     </div>
+    
+    <img src="https://res.cloudinary.com/dkaq2njxs/image/upload/v1582297238/IMG-20200221-WA0001_t6v7eh.jpg" />
+
+    <footer>
+      Proudly presented by <a href="https://www.macherjek.at"></a>
+    </footer>
   </section>
 </template>
 
