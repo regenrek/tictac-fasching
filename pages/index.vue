@@ -39,8 +39,8 @@ footer {
   text-align: center;
   color: #000;
   > a {
-    border-bottom: 2px solid #000;
-    color: #000 !important;
+    border-bottom: 2px solid #ccc;
+    color: #ccc !important;
     text-decoration: none;
   }
 }
