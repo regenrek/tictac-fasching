@@ -39,7 +39,7 @@ export default {
 $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
 $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 .wrapper {
-  max-width: 800px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 footer {
@@ -89,7 +89,7 @@ h1+p, p+p {
 }
 
 .container {
-  padding: 40px 80px;
+  padding: 40px 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
