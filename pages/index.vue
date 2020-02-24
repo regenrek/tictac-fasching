@@ -153,7 +153,7 @@ h1+p, p+p {
 }
 
 .card-bg {
-  opacity: 0.5;
+  // opacity: 0.5;
   position: absolute;
   top: -20px; left: -20px;
   width: 100%;
