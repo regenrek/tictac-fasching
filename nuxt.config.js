@@ -46,7 +46,7 @@ export default {
     "./codesandbox",
     [
       "nuxt-cloudinary-module",
-      { cloud_name: process.env.CLOUDINARY_CLOUD_NAME, secure: true }
+      { cloud_name: "dkaq2njxs", secure: true }
     ]
   ],
 

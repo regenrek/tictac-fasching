@@ -1,39 +1,28 @@
 <template>
-  <section>
-    <h1 class="title">Faschingsumzug Kirchberg/We</h1>
-    <card
-      data-image="https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop="
-    >
-      <h1 slot="header">Canyons</h1>
-      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    </card>
-    <card
-      data-image="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop="
-    >
-      <h1 slot="header">Beaches</h1>
-      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    </card>
-    <card
-      data-image="https://images.unsplash.com/photo-1479644025832-60dabb8be2a1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop="
-    >
-      <h1 slot="header">Trees</h1>
-      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    </card>
-    <card
-      data-image="https://images.unsplash.com/photo-1479621051492-5a6f9bd9e51a?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop="
-    >
-      <h1 slot="header">Lakes</h1>
-      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    </card>
+<section class="wrapper">
+  <h1 class="title">Faschingsumzug Kirchberg/We</h1>
 
-    <img
-      src="https://res.cloudinary.com/dkaq2njxs/image/upload/v1582297238/IMG-20200221-WA0001_t6v7eh.jpg"
-    >
+  <div class="container">
+  <card data-image="https://www.macherjek.at/fa/01.jpg">
+    <h1 slot="header">Freschmint</h1>
+  </card>
+  <card data-image="https://www.macherjek.at/fa/02.jpg">
+    <h1 slot="header">Oronsch</h1>
+  </card>
+  <card data-image="https://www.macherjek.at/fa/03.jpg">
+    <h1 slot="header">Sperrmind</h1>
+  </card>
+  <card data-image="https://www.macherjek.at/fa/04.jpg">
+    <h1 slot="header">Strohberry</h1>
+  </card>
+  </div>
+
     <footer>
       Website Proudly presented by
-      <a href="https://www.macherjek.at">macherjek.at</a>
+      <a href="https://www.macherjek.at" target="_blank">macherjek.at</a>
     </footer>
   </section>
+
 </template>
 
 <script>
@@ -46,17 +35,40 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-HTML SCSS BabelResult
+<style lang="scss">
 $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
 $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+footer {
+  padding-top: 4rem;
+  text-align: center;
+  color: #000;
+  > a {
+    border-bottom: 2px solid #000;
+    color: #000 !important;
+    text-decoration: none;
+  }
+}
+h1 {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: rgba(0,0,0,0.5) 0 10px 10px;
+}
+
+.wrapper {
+  padding: 40px 0 0 0;
+}
 
 body {
   margin: 40px 0;
   font-family: "Raleway";
   font-size: 14px;
   font-weight: 500;
-  background-color: #BCAAA4;
+  background-color: #eee;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -161,7 +173,7 @@ h1+p, p+p {
   position: absolute;
   bottom: 0;
   color: #fff;
-  transform: translateY(40%);
+  transform: translateY(20%);
   transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
   
   p {
@@ -196,36 +208,5 @@ h1+p, p+p {
   font-weight: 700;
   text-shadow: rgba(black, 0.5) 0 10px 10px;
 }
-View Compiled 
-Resources1×0.5×0.25×Rerun
 
-section {
-  max-width: 600px;
-}
-
-a {
-  color: #1E71B8;
-  font-weight: bold;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 400;
-  color: #2E495E;
-  letter-spacing: 1px;
-  font-size: 2em;
-  margin-bottom: 2rem;
-}
-
-img {
-  margin: 0 auto;
-  max-width: 100%;
-  display: block;
-  min-width: 370px;
-}
-footer {
-  padding-top: 2rem;
-}
 </style>
