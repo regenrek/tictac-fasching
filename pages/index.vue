@@ -4,16 +4,6 @@
 
   <div class="container">
   <card data-image="https://www.macherjek.at/fa/01.jpg">
-    <h1 slot="header">Freschmint</h1>
-  </card>
-  <card data-image="https://www.macherjek.at/fa/02.jpg">
-    <h1 slot="header">Oronsch</h1>
-  </card>
-  <card data-image="https://www.macherjek.at/fa/03.jpg">
-    <h1 slot="header">Sperrmind</h1>
-  </card>
-  <card data-image="https://www.macherjek.at/fa/04.jpg">
-    <h1 slot="header">Strohberry</h1>
   </card>
   </div>
 
@@ -141,9 +131,9 @@ h1+p, p+p {
 
 .card {
   position: relative;
-  flex: 0 0 240px;
-  width: 240px;
-  height: 320px;
+  flex: 0 0 320px;
+  width: 320px;
+  height: 240px;
   background-color: #333;
   overflow: hidden;
   border-radius: 10px;
