@@ -8,7 +8,7 @@
   </div>
 
     <footer style="font-size: 0.8rem;">
-      <a href="https://www.macherjek.at" target="_blank">macherjek.at</a>
+      <a href="https://www.macherjek.at" target="_blank">yolo</a>
     </footer>
   </section>
 
