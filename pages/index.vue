@@ -17,8 +17,7 @@
   </card>
   </div>
 
-    <footer>
-      Website Proudly presented by
+    <footer style="font-size: 0.8rem;">
       <a href="https://www.macherjek.at" target="_blank">macherjek.at</a>
     </footer>
   </section>
@@ -38,6 +37,9 @@ export default {
 <style lang="scss">
 $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
 $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+body {
+  background: #BCAAA4
+}
 .wrapper {
   max-width: 1920px;
   margin: 0 auto;
