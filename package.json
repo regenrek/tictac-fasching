@@ -1,7 +1,7 @@
 {
-  "name": "codesandbox-nuxt",
+  "name": "fasching",
   "version": "1.0.0",
-  "description": "Nuxt starter for CodeSandBox",
+  "description": "",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
@@ -13,8 +13,11 @@
   },
   "dependencies": {
     "@nuxt/http": "^0.3.0",
+    "node-sass": "4.13.1",
     "nuxt": "^2.5.1",
     "nuxt-cloudinary-module": "1.0.1",
-    "reqlim": "^0.0.0"
-  }
+    "reqlim": "^0.0.0",
+    "sass-loader": "8.0.2"
+  },
+  "keywords": []
 }
